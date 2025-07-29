@@ -3,7 +3,7 @@ import { Shifts } from 'src/entities/Shifts.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { ShiftData, ShiftReqBody } from 'src/types/shifts.types';
-import { UserService } from 'src/users/user-service/user-service.service';
+import { UserService } from 'src/modules/users/user-service/user-service.service';
 import { UserData } from 'src/types/users.types';
 
 @Injectable()
